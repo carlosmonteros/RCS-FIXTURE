@@ -1,0 +1,273 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 800px;
+  background-image: url("../assets/nota_fifa-confirmo-los-dias-de-qatar-2022.jpg");
+  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+ }
+
+.title{
+    color: rgb(228, 15, 15);
+    background-color: rgba(10, 11, 63, 0.315);
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.container-navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+.images1{
+    display: flex;
+    width: 300px;
+    object-fit: contain;
+    justify-content:center;
+    margin: 10px;
+    height: 100px;
+}
+.images2{
+    display: flex;
+    width: 300px;
+    object-fit:contain;
+    justify-content:end;
+    margin: 10px;
+    height: 100px;
+}
+.container-butom{
+    justify-content: space-evenly;
+    color: white;
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+}
+.cont{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.title{
+    color: white;
+    background-color: rgba(10, 11, 63, 0.315);
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.sel-group{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 30px;
+    background-color: rgba(8, 105, 117, 0.651);
+ }
+ .container-group{
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+ }
+ .group-name{
+    background-color: rgba(8, 105, 117, 0.651);
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 5px;
+    justify-content:center;
+    display: flex;
+    color: white;
+}
+.inline{
+    display:inline;
+    justify-content: center;
+    margin: 5px;
+}
+
+.name{
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: rgba(8, 105, 117, 0.651);
+    padding: 5px;
+    margin-bottom: 20px;
+    color:white;
+    align-items: center;
+}
+
+.sel-fase{
+    background-color: rgba(8, 105, 117, 0.651);
+    margin-bottom: 30px;
+    margin-top: 30px;
+    justify-content:center;
+    display: flex;
+    color: white;
+}
+.container-fase{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-bottom: 30px;
+}
+p:hover{
+    color: blue;
+    background-color: aquamarine;
+}
+.container-octavos{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-bottom: 30px;
+    
+
+}
+.sel-octavos{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: rgba(8, 105, 117, 0.651);
+}
+.play{ 
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(8, 105, 117, 0.651);
+    color: white;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+}
+.group{
+    width: 10vw;
+    display: flex;
+    background-color: rgba(8, 105, 117, 0.651);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px solid gray ;
+    border-radius: 10px;
+    justify-content:center;
+    color: white;
+}
+.sel-cuartos{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: rgba(8, 105, 117, 0.651);
+    margin-bottom: 30px; 
+}
+.container-cuartos{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cuartos{
+    display: flex;
+    width: 20vw;
+    border: 2px solid gray;
+    border-radius: 10px;
+    justify-content:space-evenly;
+    background-color: rgba(8, 105, 117, 0.651) ;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
+.sel-semis{
+    display: flex;
+    justify-content:space-evenly;
+    color: white;
+    background-color: rgba(8, 105, 117, 0.651);
+    margin-bottom: 30px;
+    
+}
+.container-semis{
+    display: flex;
+    justify-content:space-around;
+    color: white;
+}
+.semis{
+    display: flex;
+    width: 20vw;
+    border: 2px solid  gray;
+    border-radius: 10px;
+    justify-content:space-evenly;
+    background-color: rgba(8, 105, 117, 0.651);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.final{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgba(8, 105, 117, 0.651);
+    margin-bottom: 30px;
+}
+.container-3Y4{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 30px;
+
+} 
+.IIIPUESTO{
+    display:flex;
+    justify-content: center;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: rgba(8, 105, 117, 0.651);
+    padding: 20px;
+    margin-bottom: 50px;
+    align-items: center;
+
+}
+.container-final{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 30px;
+
+}
+.fin{
+    display: flex;
+    justify-content: center;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: rgba(8, 105, 117, 0.651);
+    padding: 20px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.name{
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: rgba(8, 105, 117, 0.651);
+    padding: 5px;
+    margin-bottom: 20px;
+    color:white;
+}
+.foot{
+    display: flex;
+    align-items: flex-end;
+}
+.footer {
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(5, 5, 53, 0.199);
+    color: white;
+    text-align: center;
+  }
